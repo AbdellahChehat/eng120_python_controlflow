@@ -31,6 +31,19 @@ student_data = {
 
 # iterate through the dict
 
-for x in student_data:
-    print(x)
+for x, y in student_data.items():
+  print(x, y)
 
+# using control flow - if elif - else and for the loop print all the keys
+for keys in student_data:
+    print(keys)
+
+# print all the values
+
+for value in student_data:
+    print(student_data[value])
+
+# print key with matching value = "Abdellah"
+
+for value in student_data:
+    print(student_data[value("studnet_name")])

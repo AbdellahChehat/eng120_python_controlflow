@@ -30,15 +30,21 @@ age2 = 12
 age3 = 15
 
 #Create a condition for 18 & above
-if age == 18 :
+print("Hello, Enter your age")
+user_age = int(input("enter age"))
+if user_age >= 18 :
     print("You are allowed to watch 18+ pg rated movies ")
 
-elif age != 18 :
-    print("You are not able to watch this movie")
+elif user_age != 18 :
+    print("You are not able to watch 18 + pg rated movies")
 
 # Create 16 & above
-if age1 == 16 :
+if user_age >= 16 :
     print("You are allowed to watch 16+ pg rated movies ")
 
-elif age1 != 16:
+elif user_age != 16:
     print("You are not able to watch this movie")
+
+else:
+    print("Enter age in digits ")
+
